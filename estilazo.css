@@ -1,0 +1,90 @@
+body {
+	font-family: "Times New Roman", serif;
+	background-color: #15dada;
+}
+
+h1 {
+	font-family: 'Silkscreen', cursive;
+	text-align: center;
+	background-color: #27f048;
+	border-left: 5px dotted red;
+	border-bottom: 5px dotted rgb(252, 151, 0);
+	margin: 10pt 550pt 10pt 550pt;
+}
+
+h2 {
+	font-family: 'Tapestry', cursive;
+	border: 2px solid red;
+	border-radius: 2000px;
+	padding: 5px;
+	margin: 10pt 550pt 10pt 550pt;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	text-shadow: 2px 2px 5px rgb(72, 255, 0);
+}
+
+p {
+	margin-left: 25pt;
+	font-size: 16pt;
+	color: rgb(0, 0, 0);
+	text-indent: 50px;
+}
+
+
+	table {
+		font-family: arial, sans-serif;
+		border-collapse: collapse;
+		width: 25%;
+		margin: 10px 4px 40px 550px;
+		table2: { font-family: arial, sans-serif;
+			border-collapse: collapse;
+			width: 25%;
+			margin: 10px 4px 40px 600px;}
+	  }
+	  
+	  td, th {
+		border: 1px solid rgb(0, 0, 0);
+		text-align: left;
+		padding: 8px;
+	  }
+	  
+	  tr:nth-child(even) {
+		background-color: pink;
+	  }
+
+video {
+	margin: 10pt 10pt 10pt 50pt;
+}
+
+li {
+	display: inline margin: 10pt 10pt 10pt 250pt;
+}
+
+a:link {
+	color: rgb(148, 7, 7);
+}
+
+a:visited {
+	color: rgb(121, 13, 13);
+}
+
+a:hover {
+	color: hotpink;
+}
+
+a:active {
+	color: blue;
+
+}
+
+.flotar { float: right;
+margin: 5% 25% 5% 10%;}
+.colocar { clear: left; 
+margin: 5% 40% 5% 20%;
+padding: 2%;}
+
